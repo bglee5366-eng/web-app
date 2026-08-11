@@ -96,7 +96,11 @@ export default function Home() {
   return (
     <main className="shell">
       <nav className="topbar">
-        <div className="brand"><span className="brand-mark">M</span><span>MEETNOTE</span></div>
+        <div className="brand-group">
+          <img className="iitp-logo" src="https://d2juy7qzamcf56.cloudfront.net/2025-03-17/3d1e7770-de08-49dd-a140-dbbac734b29c.webp" alt="정보통신기획평가원 IITP" />
+          <span className="brand-divider" />
+          <div className="brand"><span className="brand-mark">M</span><span>MEETNOTE</span></div>
+        </div>
         <span className="nav-note">회의 전사문을 실무용 회의록으로</span>
       </nav>
 

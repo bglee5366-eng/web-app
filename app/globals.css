@@ -7,6 +7,9 @@ button, input { font: inherit; }
 button { cursor: pointer; }
 .shell { max-width: 1280px; margin: 0 auto; padding: 0 44px; }
 .topbar { height: 84px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
+.brand-group { display: flex; align-items: center; gap: 14px; }
+.iitp-logo { width: 132px; height: auto; max-height: 34px; object-fit: contain; object-position: left center; }
+.brand-divider { width: 1px; height: 24px; background: #d7e0d9; }
 .brand { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 800; letter-spacing: .16em; }
 .brand-mark { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--ink); color: var(--mint); font-size: 15px; letter-spacing: 0; }
 .nav-note { color: var(--muted); font-size: 12px; }
@@ -49,4 +52,4 @@ button { cursor: pointer; }
 .result-toolbar { display: flex; justify-content: space-between; align-items: center; padding: 14px 29px; background: #fbfcfb; color: #9ba69d; font: 700 9px monospace; letter-spacing: .12em; }.result-toolbar button { border: 0; background: transparent; color: #72965a; font-size: 11px; }
 .markdown { padding: 25px 30px 40px; color: #4d5b52; font-size: 13px; line-height: 1.75; }.markdown h1 { margin: 0 0 22px; color: var(--ink); font-size: 25px; line-height: 1.25; letter-spacing: -.05em; }.markdown h2 { margin: 27px 0 9px; padding-bottom: 7px; border-bottom: 1px solid #e7ece8; color: #44613a; font-size: 15px; }.markdown h3 { margin: 17px 0 5px; color: #627f56; font-size: 13px; }.markdown p { margin: 6px 0; }.markdown li { margin: 4px 0 4px 17px; }.markdown li::marker { color: #8dbc52; }.markdown .table-line { padding: 3px 9px; border-left: 2px solid #d8e8c4; background: #fbfdf8; font-size: 11px; font-family: monospace; }.md-space { height: 7px; }
 footer { display: flex; justify-content: space-between; padding: 32px 0 42px; color: #9ca79e; font-size: 10px; letter-spacing: .04em; }
-@media (max-width: 800px) { .shell { padding: 0 18px; }.nav-note { display: none; }.hero { padding: 50px 0 40px; }.hero h1 { font-size: 47px; }.hero-copy br { display: none; }.workspace { grid-template-columns: 1fr; }.result-panel { min-height: 0; }.hero-meta { gap: 11px; font-size: 9px; } footer { gap: 20px; flex-direction: column; } }
+@media (max-width: 800px) { .shell { padding: 0 18px; }.nav-note { display: none; }.iitp-logo { width: 108px; }.brand-divider { height: 20px; }.hero { padding: 50px 0 40px; }.hero h1 { font-size: 47px; }.hero-copy br { display: none; }.workspace { grid-template-columns: 1fr; }.result-panel { min-height: 0; }.hero-meta { gap: 11px; font-size: 9px; } footer { gap: 20px; flex-direction: column; } }
