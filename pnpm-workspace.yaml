@@ -3,6 +3,4 @@ allowBuilds:
   sharp: set this to true or false
   workerd: set this to true or false
 onlyBuiltDependencies:
-  - esbuild
-  - sharp
-  - workerd
+  - "*"
